@@ -2,7 +2,7 @@
 
 ## Spis treści
 * [Informacje](#Informacje)
-* [Budowanie obrazu](#Budowanie obrazu)
+* [Budowanie obrazu](#Budowanieobrazu)
 * [Konfiguracja](#Konfiguracja)
 * [Uruchomienie](#Uruchomienie)
 
