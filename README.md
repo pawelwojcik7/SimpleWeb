@@ -21,7 +21,6 @@ Aby uruchomić kontener z wygenerowanym obrazem należy wykonać następującą 
 
 ```
 $ sudo docker run -d --rm -p 8080:8080 --name <container_name> <image_name>
-
 ```
 
 ## Uruchmienie
@@ -29,6 +28,15 @@ Aby przetestowac aplikację należy w przeglądarcę wpisać poniższy adres.
 
 ```
 $ localhost:8080
+```
+
+## DockerHub
+Aby dodać obraz na DockerHub należy najpierw z poziomu przeglądarki utworzyć puste repozytorium, a następnie wykonać nastepujące polecenia.
+
+```
+$ docker login -u <username> -p <password>
+$ docker tag <image_name> <username/repository_name>
+$ docker push <username/repository_name>
 ```
 
 
